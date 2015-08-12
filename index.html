@@ -1,47 +1,710 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>English 4 IT</title>
-	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css" media="screen,projection">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
-	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	
+<!-- start coded_template: id:2805399175 path:custom/pages/strap/home.html --><!doctype html><!-- start coded_template: id:2760197189 path:custom/system/strap/header.html --><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="author" content="Strap">
+    <meta name="description" content="Strap is Wearable Intelligence Software for increasing marketing and advertising effectiveness through more precise targeting and personalization. ">
+    <title>Strap - Wearable Integration and Analytics Platform - Strap</title>
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <!-- Typekit -->
+    <script src="js/lai6eas.js?t=1439239136616?t=1439239136616"></script>
+    <script>try{Typekit.load();}catch(e){}</script> 
+    
+  <script src="code.jquery.com/jquery-1.10.2.js?t=1439239136616"></script>
+  <script src="code.jquery.com/ui/1.11.4/jquery-ui.js?t=1439239136616"></script>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js?t=1439239136616"></script>
+    <script type="text/javascript">hsjQuery = window['jQuery']</script>
+    <link href="css/public_common.css" rel="stylesheet">
+    <meta property="og:description" content="Strap is Wearable Intelligence Software for increasing marketing and advertising effectiveness through more precise targeting and personalization. ">
+    <meta property="og:title" content="Strap">
+    <meta name="twitter:description" content="Strap is Wearable Intelligence Software for increasing marketing and advertising effectiveness through more precise targeting and personalization. ">
+    <meta name="twitter:title" content="Strap">
+
+    
+    
+    <link rel="canonical" href="http://www.straphq.com">
+
+
+    <!--[if lt IE 9]>
+    <script src="https://static.hsstatic.net/content_shared_assets/static-1.3962/js/css3-mediaqueries.js?t=1439239136616"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="//cdn2.hubspot.net/hub/514770/hub_generated/style_manager/1427741117184/custom/styles/default/hs_default_custom_style.min.css" rel="stylesheet">
+
+
+
+
+    
+    
+    
+    <!-- CSS -->
+    <link href="bower_components/materialize/bin/materialize.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js?t=1439239136616"></script>
+    <![endif]-->
+    <link href="bower_components/materialize/bin/strap.css" rel="stylesheet">
+    <link rel="shortcut icon" href="//cdn2.hubspot.net/hubfs/514770/img/favicon.png?t=1439239136616">
+    <link rel="apple-touch-icon" href="//cdn2.hubspot.net/hubfs/514770/img/apple-touch-icon.png?t=1439239136616">
+    <link rel="apple-touch-icon" sizes="72x72" href="//cdn2.hubspot.net/hubfs/514770/img/apple-touch-icon-72x72.png?t=1439239136616">
+    <link rel="apple-touch-icon" sizes="114x114" href="//cdn2.hubspot.net/hubfs/514770/img/apple-touch-icon-114x114.png?t=1439239136616">
+    <script type="text/javascript">
+    ! function() {
+        var analytics = window.analytics = window.analytics || [];
+        if (!analytics.initialize)
+            if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice.");
+            else {
+                analytics.invoked = !0;
+                analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "group", "track", "ready", "alias", "page", "once", "off", "on"];
+                analytics.factory = function(t) {
+                    return function() {
+                        var e = Array.prototype.slice.call(arguments);
+                        e.unshift(t);
+                        analytics.push(e);
+                        return analytics
+                    }
+                };
+                for (var t = 0; t < analytics.methods.length; t++) {
+                    var e = analytics.methods[t];
+                    analytics[e] = analytics.factory(e)
+                }
+                analytics.load = function(t) {
+                    var e = document.createElement("script");
+                    e.type = "text/javascript";
+                    e.async = !0;
+                    e.src = ("https:" === document.location.protocol ? "https://" : "http://") + "cdn.segment.com/analytics.js?t=1439239136616/v1/" + t + "/analytics.min.js?t=1439239136616";
+                    var n = document.getElementsByTagName("script")[0];
+                    n.parentNode.insertBefore(e, n)
+                };
+                analytics.SNIPPET_VERSION = "3.0.1";
+                analytics.load("n2l2tgptvf");
+                analytics.page()
+            }
+    }();
+    </script>
 </head>
-	<body>
-	  <nav class="white">
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo black-text">Logo</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse  black-text"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="mobile.html" class=" black-text">IT компаниям</a></li>
-		<li><a href="#" data-activates="slide-out" class="button-collapse show-on-large black-text"><i class="mdi-navigation-menu"></i></a></li>
-      </ul>
-	  <ul id="slide-out" class="side-nav">
-			<li><a href="#!">First Sidebar Link</a></li>
-			<li><a href="#!">Second Sidebar Link</a></li>
-	  </ul>
-    </div>
-  </nav>
-	
-	
-		<div class="container">
-			<div class="row">
-          <div class="col s12 m4 l2">
-            <p class="z-depth-3" style="background-color: #26a69a;width: 100px;height: 100px;margin: 20px auto;"></p>
-          </div>
+
+<body>
+    <!-- HEADER -->
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="full fitVid video-container">
+            <iframe src="" width="1280" height="720" frameborder="0" allowfullscreen></iframe>
         </div>
-   	</div>
-        
-  </body>
-</html>
+    </div>
+    <header id="header" class="header-scroll-up">
+        <ul id="mainHeader-mobile-nav" class="side-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="/company">About</a></li>
+            <li><a href="https://docs.straphq.com">Documentation</a></li>
+            <li><a href="http://www.angel.co/strap/jobs">Job Openings</a></li>
+            <li class="primary"><a href="/company">Contact us</a></li>
+            <li class="primary">
+                <span class="hs-cta-wrapper" id="hs-cta-wrapper-05ceb75e-3b8b-406d-ad0d-2594a86d0dab">
+                    <span class="hs-cta-node hs-cta-05ceb75e-3b8b-406d-ad0d-2594a86d0dab" id="hs-cta-05ceb75e-3b8b-406d-ad0d-2594a86d0dab">
+                    <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                        <a href="http://cta-redirect.hubspot.com/cta/redirect/514770/05ceb75e-3b8b-406d-ad0d-2594a86d0dab"></a>
+                    </span>
+                    <script charset="utf-8" src="cta/current.js?t=1439239136616"></script>
+                    <script type="text/javascript">
+                    hbspt.cta.load(514770, '05ceb75e-3b8b-406d-ad0d-2594a86d0dab');
+                    </script>
+                </span>
+
+            </li>
+            <div class="center-align">
+                <a class="waves-effect btn btn-icon btn-inverted btn-primary" href=""><i class="icon-facebook"></i></a>
+                <a class="waves-effect btn btn-icon btn-inverted btn-primary horiz-margined" href=""><i class="icon-twitter"></i></a>
+                <a class="waves-effect btn btn-icon btn-inverted btn-primary" href=""><i class="icon-github"></i></a>
+            </div>
+        </ul>
+        <nav id="mainHeader" class="navbar-fixed">
+            <div class="navbar-header hide-on-med-and-down">
+                <a class="navbar-brand" href="/">
+                    <img class="img-responsive center" src="//cdn2.hubspot.net/hubfs/514770/img/strap-logo2.png?t=1439239136616" alt="Strap">
+                </a>
+            </div>
+            <div class="navbar-header mobile-navlogo hide-on-large-only fade animated-300">
+                <a class="navbar-brand navbar-brand-logo" href="/">
+                    <img class="img-responsive center" src="//cdn2.hubspot.net/hubfs/514770/img/strap-logo2.png?t=1439239136616" alt="Strap">
+                </a>
+                <a class="navbar-brand navbar-brand-icon" href="/">
+                    <img class="img-responsive center" src="//cdn2.hubspot.net/hubfs/514770/img/strap-icon2.png?t=1439239136616" alt="Strap">
+                </a>
+            </div>
+            <ul class="right hide-on-med-and-down">
+                <li class="header-resources-link"><a href="/resources">Resources</a></li>
+                <!--HubSpot Call-to-Action Code -->
+                <span class="hs-cta-wrapper left" id="hs-cta-wrapper-b63d1908-15e6-4791-b795-3bbcaaebec33">
+                    <span class="hs-cta-node hs-cta-b63d1908-15e6-4791-b795-3bbcaaebec33" id="hs-cta-b63d1908-15e6-4791-b795-3bbcaaebec33">
+                        <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                        <a href="http://cta-redirect.hubspot.com/cta/redirect/514770/b63d1908-15e6-4791-b795-3bbcaaebec33 btn-small btn-primary btn-raised waves-effect">Request Demo</a>
+                    </span>
+                    <script charset="utf-8" src="cta/current.js?t=1439239136616"></script>
+                    <script type="text/javascript">
+                        hbspt.cta.load(514770, 'b63d1908-15e6-4791-b795-3bbcaaebec33');
+                    </script>
+                </span>
+                <!-- end HubSpot Call-to-Action Code -->
+                
+                <a href="#!" data-activates="mainHeader-dropdown" class="dropdown-button waves-effect btn-icon btn-flat"><i class="icon-menu"></i></a>
+                <ul id="mainHeader-dropdown" class="dropdown-content">
+                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/company">About</a></li>
+                    <li><a href="https://docs.straphq.com">Documentation</a></li>
+                    <li><a href="http://www.angel.co/strap/jobs">Job Openings</a></li>
+                </ul>
+            </ul>
+            <div class="mobile-navcta text-center hide-on-large-only fade animated-300">
+                <a self-center="" class="btn btn-primary btn-small text-center" href="#contact">Contact us</a>
+            </div>
+            <ul class="mobile-navbtn hide-on-large-only text-right fade animated-300">
+                <a href="#" data-activates="mainHeader-mobile-nav" class="button-collapse waves-effect btn-icon btn-flat"><i class="icon-menu"></i></a>
+            </ul>
+        </nav>
+        <nav id="subHeader">
+            <div class="container hide-on-med-and-down">
+                <div class="row">
+                    <ul class="tabs desktop-tabs">
+                        <li class="waves-effect waves-light-blue tab"><a href="#home-hero">How it works</a></li>
+                        <li class="waves-effect waves-light-blue tab"><a href="#how-it-works-section">Wearable Intelligence</a></li>
+                        <li class="waves-effect waves-light-blue tab"><a href="#benefits">Benefits</a></li>
+                    </ul>
+                    <span class="tab-btn waves-effect waves-light-blue"><a href="/resources">Resources</a></span>
+
+                </div>
+            </div>
+            <div class="full hide-on-large-only">
+                <ul class="tabs">
+                    <li class="waves-effect waves-light-blue tab"><a id="video-tab-link" href="#myModal">How</a></li>
+                    <li class="waves-effect waves-light-blue tab tab-wide"><a href="#how-it-works-section">Wearable Intel</a></li>
+                    <li class="waves-effect waves-light-blue tab"><a href="#benefits">Benefits</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- end HEADER -->
+<!--
+
+--><!-- end coded_template: id:2760197189 path:custom/system/strap/header.html -->
+
+
+    <div class="home main-content full">
+        <div class="content">
+            <a onclick="true" href="#how-it-works-trigger" class="btn-floating btn-large waves-effect waves-circle waves-lightblue down-button"><i class="icon-chevron-down"></i></a>
+                <!-- Hero
+            ================================================== -->
+            <div id="home-hero-trigger">
+                <div id="home-hero" class="">
+                    <div class="hero-text">
+                        <div class="container">
+                            <h1 class="text-center">Does your marketing strategy have a pulse?</h1>
+                            <h2 class="text-center">It's time to tap into the power of wearables.</h2>
+                            <div class="text-center hero-buttons">
+                                <a class="text-center primary inverted large btn waves-effect waves-light-blue" href="/resources">Why Strap</a>
+                                <a class="text-center primary inverted large btn waves-effect waves-light-blue" id="video-link" href="#myModal">How it works <i class="icon-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="hero-card row">
+                        <div class="card z-depth-3 center" >
+                            <h2 class="text-center">Wearable Intelligence Software</h2>
+                            <div class="left margined padded">
+                                <div class="strap-theme col s6"><i class="icon-integrations"></i> Integrations</div>
+                                <div class="strap-theme col s6"><i class="icon-stats"></i> Insights</div>
+                                <div class="strap-theme col s6"><i class="icon-unlock"></i> Access</div>
+                                <div class="strap-theme col s6"><i class="icon-trigger"></i> Action</div>
+                            </div>
+                        </div>
+                    </div> -->
+            </div>
+            <!-- Marketing messaging and featurettes
+            ================================================== -->
+            <!-- Wrap the rest of the page in another container to center all the content. -->
+            <div class="sections">
+                <div id="how-it-works-trigger">
+
+                    <div id="how-it-works" class="how-it-works row">
+                        <div id="how-it-works-section" class="shadowed " large="">
+                            <h1 flex="" class="text-center">Wearable Intelligence Software</h1>
+                        </div>
+                        <div class="how-it-works-menu-wrap col s2 m3 l3 hide-on-small-only">
+                            <ul class="how-it-works-menu">
+                                <span class="item-nub-wrap">
+                                    <div class="item-nub"></div>
+                                </span>
+
+                                <li><a href="#how-enable" id="how-enable-tic" class="text-blue waves-effect"><span class="text-blue hide-on-med-and-down"><i class="icon-integration"></i> Integrations</span><span class="text-blue hide-on-large-only block full small"><i class="icon-integration block"></i> Integrate</span></a></li>
+                                <li><a href="#how-connect" id="how-connect-tic" class="text-gold waves-effect"><span class="text-gold hide-on-med-and-down"><i class="icon-unlock"></i> Access</span><span class="text-gold hide-on-large-only block full small"><i class="icon-unlock block"></i> Access</span></a></li>
+                                <li><a href="#how-push" id="how-push-tic" class="text-green waves-effect"><span class="text-green hide-on-med-and-down"><i class="icon-stats"></i> Insights</span><span class="text-green hide-on-large-only block full small"><i class="icon-stats block"></i> Insights</span></a></li>
+                                <li><a href="#how-metrics" id="how-metrics-tic" class="text-lightred waves-effect"><span class="text-lightred hide-on-med-and-down"><i class="icon-trigger"></i> Action</span><span class="text-lightred hide-on-large-only block full small"><i class="icon-trigger block"></i> Action</span></a></li>
+                            </ul>
+                        </div>
+                        <div id="how-it-works-sections" class="col s12 offset-m3 offset-l3 m9 l9 how-it-works-sections">
+
+                                    <div id="how-enable" class="col s12 m12 l12 how-section">
+                                        <div class="col s6 offset-s3 m2 l2 text-center">
+                                            <i class="icon-integration block text-blue extra-large-text text-center"></i>
+                                        </div>
+                                        <div class="col s12 m10 l10">
+                                            <h3 class="text-blue uppercase">Integrations</h3>
+                                            <p>Today human behavioral data exists in silos. Accessing the data is time consuming and requires ongoing development. Strap integrates with as many services as possible so you can tap all available human data.</p>
+                                        </div>
+                                    </div>
+                                    <div id="how-connect" class="col s12 m12 l12 how-section">
+                                        <div class="col s6 offset-s3 m2 l2">
+                                            <i class="icon-unlock block text-gold extra-large-text text-center"></i>
+                                        </div>
+                                        <div class="col s12 m10 l10">
+                                            <h3 class="text-gold uppercase">Access</h3>
+                                            <p>Working with our data is simple. We designed our platform to the highest standards in UX/UI design. Our API’s are built to be flexible so you can retrieve the data you need. Your experience should be efficient and seamless.</p>
+                                        </div>
+                                    </div>
+                                    <div id="how-push" class="col s12 m12 l12 how-section">
+                                        <div class="col s6 offset-s3 m2 l2">
+                                            <i class="icon-stats block text-green extra-large-text text-center"></i>
+                                        </div>
+                                        <div class="col s12 m10 l10">
+                                            <h3 class="text-green uppercase">Insights</h3>
+                                            <p>Every brand should be able to tell a story and gain global intelligence based on the data at their fingertips. Raw data streams and simple aggregations are difficult to decipher or smash up with your current understanding of your consumers. Our data scientists help you see how your consumers are actually behaving based on rich data science and in-depth research.</p>
+                                        </div>
+                                    </div>
+                                    <div id="how-metrics" class="col s12 m12 l12 how-section">
+                                        <div class="col s6 offset-s3 m2 l2">
+                                            <i class="icon-trigger block text-lightred extra-large-text text-center"></i>
+                                        </div>
+                                        <div class="col s12 m10 l10">
+                                            <h3 class="text-lightred uppercase">Action</h3>
+                                            <p>Data is useless unless it can help you solve problems. Brands need to act instantly based on the actions and behaviors consumers perform pre, during and post purchase. Strap enables a universe of real time actions based on all aspects of our integrated data, unlocking the potential of the connected world.</p>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+                <section id="consulting-section" class="white-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col s8 offset-s2 m6 offset-m3 l3 offset-l1">
+                                <img class="img-responsive center" src="//cdn2.hubspot.net/hubfs/514770/img/consulting.png?t=1439239136616">
+                            </div>
+                            <div class="col s12 m12 l8">
+                                <h2>Questions?</h2>
+                                <p>Human data is a new field and one we’ve fully immersed ourselves in. Innovative brands will move quickly to make the leap to wearables, but there are still many questions.</p>
+                                <p class="text-lightred text-regular">Let us show you how human data can work within your existing digital marketing strategy.</p>
+                                <a class="scrollToLink btn-secondary btn waves-effect" href="#contact">Request Demo</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- <div id="use-cases-trigger">
+                    <section id="use-cases-section" class="case-studies ">
+
+                        <div class="container">
+                            <div class="row">
+                                <div id="trigger-use-cases" class="spacer s0"></div>
+                                <div id="use-cases-wrap">
+
+                                    <div class="row" >
+
+                                        <div id="use-cases"class="use-cases fancy" selected="0">
+                                            <div id="case-retail-trigger" class="margined-bottom-5"></div>
+                                            <div id="case-retail" class="one use-case core-selected">
+
+                                                <div class="">
+                                                    <img class="img-responsive" src="https://cdn2.hubspot.net/hubfs/514770/img/case-retail.jpg" />
+                                                    <h2>Give your customers more ways to earn</h2>
+                                                </div>
+                                            </div>
+                                            <div id="case-iot-trigger" class="margined-bottom-5"></div>
+                                            <div id="case-iot" class="two use-case">
+
+                                                <div class="">
+                                                    <img class="img-responsive" src="https://cdn2.hubspot.net/hubfs/514770/img/case-iot.jpg" />
+                                                    <h2>Allow personal connections to the IoT</h2>
+                                                </div>
+                                            </div>
+                                            <div id="case-internal-trigger" class="margined-bottom-5"></div>
+                                            <div id="case-internal" class="three use-case">
+
+                                                <div class="">
+                                                    <img class="img-responsive" src="https://cdn2.hubspot.net/hubfs/514770/img/case-internal.jpg" />
+                                                    <h2>Reward healthy team members</h2>
+                                                </div>
+                                            </div>
+                                            <div id="case-health-trigger" class="margined-bottom-5"></div>
+                                            <div id="case-health" class="four use-case">
+
+                                                <div class="">
+                                                    <img class="img-responsive" src="https://cdn2.hubspot.net/hubfs/514770/img/case-health.jpg" />
+                                                    <h2>Enable healthcare applications</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div> -->
+                <div id="benefits-trigger">
+                    <section id="benefits" class="benefits no-padding ">
+
+                        <!-- <h1 flex class="text-center">Benefits</h1> -->
+                        <div class="row benefits-items">
+                            <a href="/resources/what-is-human-data">
+                                <img class="img-responsive" src="//cdn2.hubspot.net/hubfs/514770/img/benefit-realtime.png?t=1439239136616">
+                                <h4 flex="" class="text-blue text-regular text-center uppercase">Human Data</h4>
+                            </a>
+                            <a href="/resources/brand-storytelling-with-human-data">
+                                <img class="img-responsive" src="//cdn2.hubspot.net/hubfs/514770/img/benefit-brandlove.png?t=1439239136616">
+                                <h4 flex="" class="text-blue text-regular text-center uppercase">Brand Love</h4>
+                            </a>
+                            <a href="/segment-and-target-based-on-human-data">
+                                <img class="img-responsive" src="//cdn2.hubspot.net/hubfs/514770/img/benefit-userinsights.png?t=1439239136616">
+                                <h4 flex="" class="text-blue text-regular text-center uppercase">User Insights</h4>
+                            </a>
+                            <a href="/resources/think-bigger-skeptics-wearable-tech-will-change-the-world">
+                                <img class="img-responsive" src="//cdn2.hubspot.net/hubfs/514770/img/benefit-innovation.png?t=1439239136616">
+                                <h4 flex="" class="text-blue text-regular text-center uppercase">Innovation</h4>
+                            </a>
+
+                        </div>
+                    </section>
+                </div>
+                <section id="white-paper-section" class="white-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col s8 offset-s2 m4 l4 offset-l1">
+                                <img class="img-responsive center" src="//cdn2.hubspot.net/hubfs/514770/img/white-paper-cta.png?t=1439239136616">
+                            </div>
+                            <div class="col s12 m8 l6">
+                                <h2>Discover the impact wearables can have on brand strategy</h2>
+                                <p>Download our white paper on the value of wearable data for brand marketing.</p>
+                                <!--HubSpot Call-to-Action Code -->
+                                <span class="hs-cta-wrapper" id="hs-cta-wrapper-7b21191f-1235-4061-8cb0-2d524527d6f4">
+                                    <span class="hs-cta-node hs-cta-7b21191f-1235-4061-8cb0-2d524527d6f4" id="hs-cta-7b21191f-1235-4061-8cb0-2d524527d6f4">
+                                        <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                                        <a href="http://cta-redirect.hubspot.com/cta/redirect/514770/7b21191f-1235-4061-8cb0-2d524527d6f4"></a>
+                                    </span>
+                                    <script charset="utf-8" src="cta/current.js?t=1439239136616"></script>
+                                    <script type="text/javascript">
+                                        hbspt.cta.load(514770, '7b21191f-1235-4061-8cb0-2d524527d6f4');
+                                    </script>
+                                </span>
+                                <!-- end HubSpot Call-to-Action Code -->
+
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="why-wear" class="white-blue-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col s12 m12 l6 pull-right absolute-right no-padding hide-on-med-and-down">
+
+                                <object type="image/svg+xml" data="https://cdn2.hubspot.net/hubfs/514770/img/iot-arm.svg" class="img-responsive iot-arm"></object>
+
+                            </div>
+                            <div class="col s12 m12 l6 offset-l1">
+                                <div class="full left">
+                                    <h2>Wearables are your customers’ most <b>personal devices</b>.</h2>
+                                    <p>And they’re growing in popularity. 30 million fitness trackers and smartwatches were sold last year and 60 million are expected to sell in 2015. Strap harnesses the activity and fitness data from these devices for you.</p>
+                                    <h3>What is a wearable?</h3>
+                                    <blockquote>Wearables are smart devices you can wear. The most common are smartwatches and activity trackers. Wearables track unique data like heart rate and movement. Wearables also receive notifications so you can check things like texts without pulling out your phone.</blockquote>
+                                
+                                    <a class="scrollToLink btn-secondary btn waves-effect" href="#contact">Request Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div id="contact-trigger">
+                <!-- <section id="contact" class="">
+
+                    <h1 class="text-center">Request Demo</h1>
+                        <div class="card z-depth-3 center" >
+                            <form id="contact-form" class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12 m6">
+                                        <input id="contact-name" type="text" class="validate">
+                                        <label for="contact-name">Name</label>
+                                    </div>
+                                    <div class="input-field col s12 m6">
+                                        <input id="contact-email" type="text" class="validate">
+                                        <label for="contact-email">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                    <input id="contact-company" type="text" class="validate">
+                                    <label for="contact-company">Company</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <textarea id="contact-message" class="materialize-textarea"></textarea>
+                                        <label for="contact-message">Briefly describe your project.</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="center">
+                                        <span class="horiz-margined">
+                                            <input type="checkbox" id="product-updates-register" />
+                                            <label for="product-updates-register">Product Updates</label>
+                                        </span>
+                                        <span class="horiz-margined">
+                                            <input type="checkbox" id="blog-register" />
+                                            <label for="blog-register">Strap Blog</label>
+                                        </span>
+                                    </div>
+                                </div>
+                                <button id="contact-form-submit" class="btn-primary btn waves-effect vert-margined-20"
+                                data-loading-text="Sending..." data-complete-text="Thanks! Check email to opt in.">Request Demo</button>
+                            </form>
+                        </div>
+                    <img class="thumbs-up-left" src="https://cdn2.hubspot.net/hubfs/514770/img/thumbs-up-left.png"/>
+                    <img class="thumbs-up-right" src="https://cdn2.hubspot.net/hubfs/514770/img/thumbs-up-right.png"/>
+                </section> -->
+                <section id="contact" class="">
+                    <h2 class="text-center margin-bottom"><span id="hs_cos_wrapper_Form-Title" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="text">Contact</span></h2>
+                    <div class="card z-depth-3 center">
+                        <p><span id="hs_cos_wrapper_form-1" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="form"></span></p><h3 id="hs_cos_wrapper_form-1_title" class="hs_cos_wrapper form-title" data-hs-cos-general-type="widget_field" data-hs-cos-type="text"></h3>
+
+<div id="hs_form_target_form-1"></div>
+
+<!--[if lte IE 8]>
+<script charset="utf-8" src="https://js.hsforms.net/forms/v2-legacy.js?t=1439239136616"></script>
+<![endif]-->
+<script charset="utf-8" src="js/v2.js?t=1439239136616"></script>
 
 <script>
-$( document ).ready(
-	function()
-		{
-			$(".button-collapse").sideNav();
-		}
-	)
+    hbspt.forms.create({
+        portalId: '514770',
+        formId: 'be3dfb22-8078-4240-ba51-23fd8e206b3e',
+        formInstanceId: '9941',
+        pageId: 2805413845,
+        
+        
+        
+        
+        pageName: "Strap",
+        
+        
+        redirectUrl: "http:\/\/www.straphq.com\/?portalId=514770&hsFormKey=f7b23b3a30865b918a1960fbe03f5b1a#form-1",
+        
+        
+        css: '',
+        target: '#hs_form_target_form-1',
+        
+        
+        
+        
+        
+        contentType: "standard-page",
+        
+        formData: {
+        cssClass: 'hs-form stacked hs-custom-form'
+        }
+    });
+</script><p></p>
+                    </div>
+                    <img class="thumbs-up-left" src="//cdn2.hubspot.net/hubfs/514770/img/thumbs-up-left.png?t=1439239136616">
+                    <img class="thumbs-up-right" src="//cdn2.hubspot.net/hubfs/514770/img/thumbs-up-right.png?t=1439239136616">
+                </section>
+            </div>
+            </div>
+            <div id="supporters">
+                <section class="supporters-wrap">
+                    <div class="container text-center text-white">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-15">
+                                <a href="http://finance.yahoo.com/news/strap-first-deliver-power-analytics-135200304.html"><img class="text-center center" src="//cdn2.hubspot.net/hubfs/514770/img/yahoo-logo-white.png?t=1439239136616" alt="Yahoo!" title="Yahoo!"></a>
+                            </div>
+                            <div class="col-xs-6 col-md-15 center">
+                                <a href="http://www.ibtimes.com/no-betamax-your-wrist-startup-strap-looks-end-wearables-platform-wars-1732164"><img class="text-center center" src="//cdn2.hubspot.net/hubfs/514770/img/ibt-logo-white.png?t=1439239136616" alt="International Business Times" title="International Business Times"></a>
+                            </div>
+                            <div class="col-xs-6 col-md-15 center">
+                                <a href="https://developer.getpebble.com/blog/2014/07/02/Watch-analytics-with-strap/"><img class="text-center center" src="//cdn2.hubspot.net/hubfs/514770/img/pebble-logo-white.png?t=1439239136616" alt="Pebble" title="Pebble"></a>
+                            </div>
+                            <div class="col-xs-6 col-md-15 center">
+                                <a href="http://www.producthunt.com/posts/strap"><img class="text-center center" src="//cdn2.hubspot.net/hubfs/514770/img/product-hunt-logo-white.png?t=1439239136616" alt="Product Hunt" title="Product Hunt"></a>
+                            </div>
+                            <div class="col-xs-6 col-md-15 center">
+                                <a href="http://insights.wired.com/profiles/blogs/think-bigger-skeptics-wearable-tech-will-change-the-world#axzz3OLYzZWiQ"><img class="text-center center" src="//cdn2.hubspot.net/hubfs/514770/img/wired-logo-white.png?t=1439239136616" alt="Wired" title="Wired"></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-md-15 center">
+                                <a href="http://techcrunch.com/2015/01/23/what-we-didnt-see-from-wearables-at-ces/"><img class="text-center center" src="//cdn2.hubspot.net/hubfs/514770/img/techcrunch-logo-white.png?t=1439239136616" alt="TechCrunch" title="TechCrunch"></a>
+                            </div>
+                            <div class="col-xs-6 col-md-15 center">
+                                <a href="https://www.meteor.com/"><img class="text-center center" src="//cdn2.hubspot.net/hubfs/514770/img/meteor-logo-white.png?t=1439239136616" alt="Meteor" title="Meteor"></a>
+                            </div>
+                            <div class="col-xs-6 col-md-15 center">
+                                <a href="http://brandery.org/"><img class="text-center center" src="//cdn2.hubspot.net/hubfs/514770/img/brandery-logo-white.png?t=1439239136616" alt="The Brandery" title="The Brandery"></a>
+                            </div>
+                            <div class="col-xs-6 col-md-15 center">
+                                <a href="https://modulus.io/"><img class="text-center center" src="//cdn2.hubspot.net/hubfs/514770/img/modulus-logo-white.png?t=1439239136616" alt="Modulus" title="Modulus"></a>
+                            </div>
+                            <div class="col-xs-6 col-md-15 center">
+                                <a href="http://www.fastcompany.com/3042500/app-economy/how-the-apple-watch-will-work-as-explained-by-the-people-making-the-apps"><img class="text-center center" src="//cdn2.hubspot.net/hubfs/514770/img/fastcompany-logo-white.png?t=1439239136616" alt="Fast Company" title="Fast Company"></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+<!-- start coded_template: id:2760602467 path:custom/system/strap/footer.html -->
+<!--FOOTER -->
+<footer class="strap-footer full left">
+    <div class="container text-white">
+        <div class="row">
+            <div class="col s12 m9 l4">
+                <p class="text-left">We built our company in the brand capital of the world, Cincinnati, Ohio, advised by marketers and big brands all along the way. We’re committed to helping you find a way to tap into the power of wearable data.</p>
+                <!--HubSpot Call-to-Action Code -->
+                <span class="hs-cta-wrapper" id="hs-cta-wrapper-3a135eb7-a6f7-47f5-9dbc-359b196ade64">
+                    <span class="hs-cta-node hs-cta-3a135eb7-a6f7-47f5-9dbc-359b196ade64" id="hs-cta-3a135eb7-a6f7-47f5-9dbc-359b196ade64">
+                        <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                        <a href="http://cta-redirect.hubspot.com/cta/redirect/514770/3a135eb7-a6f7-47f5-9dbc-359b196ade64"><img class="hs-cta-img" id="hs-cta-img-3a135eb7-a6f7-47f5-9dbc-359b196ade64" style="border-width:0px;" src="//no-cache.hubspot.com/cta/default/514770/3a135eb7-a6f7-47f5-9dbc-359b196ade64.png" alt="Request Demo"></a>
+                    </span>
+                    <script charset="utf-8" src="js/current.js?t=1439239136616"></script>
+                    <script type="text/javascript">
+                        hbspt.cta.load(514770, '3a135eb7-a6f7-47f5-9dbc-359b196ade64');
+                    </script>
+                </span>
+                <!-- end HubSpot Call-to-Action Code -->
+            </div>
+            <div class="col s12 m3 l2">
+                <div>
+                    <h4>Links</h4>
+                    <ul class="text-left left">
+                        <li class="block"><a href="/">Home</a>
+                        </li>
+                        <li class="block"><a href="/resources">Resources</a>
+                        </li>
+                        <li class="block"><a href="/company">About</a>
+                        </li>
+                        <li class="block"><a href="http://www.angel.co/strap/jobs">Jobs</a>
+                        </li>
+                    </ul>
+                    <ul class="text-left left">
+                        <li class="block"><a href="http://status.straphq.com">Status</a>
+                        </li>
+                        <li class="block"><a href="https://strap.uservoice.com/">Support</a>
+                        </li>
+                        <li class="block"><a href="/terms">Terms</a>
+                        </li>
+                        <li class="block"><a href="/privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div>
+                    <h4>Resources</h4>
+                    <ul class="text-left">
+                        
+                        
+                            <li class="post-title"><a href="//www.straphq.com/resources/hacking-healthcare-unleashing-the-power-of-human-data">Hacking Healthcare: Unleashing the Power of Human Data</a></li>
+                        
+                            <li class="post-title"><a href="//www.straphq.com/resources/this-week-in-wearables-moov-now-does-what-apple-watch-and-fitbit-cannot">This Week In Wearables - Moov Now Does What Apple Watch and Fitbit Cannot</a></li>
+                        
+                            <li class="post-title"><a href="//www.straphq.com/resources/strap-gets-a-slack-makeover">Strap Gets a Slack Makeover </a></li>
+                        
+                            <li class="post-title"><a href="//www.straphq.com/resources/strap-talks-monetizing-wearable-data-in-iot-influencers-summit">Strap Talks Monetizing Wearable Data in IoT Influencers Summit </a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div>
+                    <h4>Connect</h4>
+                    <ul class="text">
+                        <li><i class="icon icon-phone left"></i> 513-977-6363</li>
+                        <li><i class="icon icon-location-pin left"></i> <a href="https://www.google.com/maps/place/100+W+5th+St,+Cincinnati,+OH+45202/@39.1009436,-84.514608,17">100 W. 5th Street, Cincinnati, OH 45202</a></li>
+                        <li><i class="icon icon-email left"></i> <a href="mailto:hello@straphq.com">hello@straphq.com</a></li>
+                    </ul>
+                    <h3>
+                    <a href="https://www.facebook.com/getstrap" target="_blank"><i class="icon-facebook"></i></a>  <a href="https://twitter.com/getstrap" target="_blank"><i class="icon-twitter"></i></a>  <a href="https://github.com/strap/" target="_blank"><i class="icon-github"></i></a>
+                </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <p class="full source-org copyright">© 2015 Strap. Made with <i class="icon-heart"></i> in Cincinnati, OH.</p>
+                </div>
+            </div>
+        </div>
+</div></footer>
+<script src="bower_components/materialize/bin/materialize.js?t=1439239136616"></script>
+<script src="js/scrollMagic.js?t=1439239136616"></script>
+<script src="js/TweenMax.min.js?t=1439239136616?t=1439239136616"></script>
+<script src="js/animation.gsap.min.js?t=1439239136616"></script>
+<script src="js/bootstrap-button.js?t=1439239136616"></script>
+<script src="js/jquery.vide.js?t=1439239136616"></script>
+
+<script src="js/main.js?t=1439239136616"></script>
+<script src="js/ScrollToPlugin.min.js?t=1439239136616"></script>
+
+<script type="text/javascript" src="js/public_common.js?t=1439239136616"></script>
+
+<!-- Start of Async HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "http:\/\/www.straphq.com"]);
+_hsq.push(["setPageId", "2805413845"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 2805413845,
+    "legacyPageId": "2805413845",
+    "contentGroupId": null,
+    "abTestId": null
+}]);
+_hsq.push(["setTargetedDefinitionMeta", {"matchedDefinitionIds":null,"definitionIds":null}]);
+(function(d,s,i,r) {
+    if (d.getElementById(i)){return;}
+    var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+    n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/514770.js?t=1439239136616';
+    e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
 </script>
+<!-- End of Async HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    ticks: 1439279125977,
+    page_id: 2805413845,
+    content_group_id: 0,
+    portal_id: 514770,
+    app_hs_base_url: "https://app.hubspot.com"
+}
+</script>
+
+
+
+
+
+
+
+
+
+<!-- end FOOTER -->
+<!--<!-- end coded_template: id:2760602467 path:custom/system/strap/footer.html -->
+
+
+
+      <!--
+
+--><!-- end coded_template: id:2805399175 path:custom/pages/strap/home.html -->
+</body></html>
