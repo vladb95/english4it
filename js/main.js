@@ -80,9 +80,7 @@ jQuery(document).ready(function($) {
     var controllerHashLink = new ScrollMagic.Controller();
 
     // change behaviour of controller to animate scroll instead of jump
-    controllerHashLink.scrollTo(function (newpos) {
-        TweenMax.to(window, 0.5, {scrollTo: {y: newpos - 128}});
-    });
+    //controllerHashLink.scrollTo();
 
     //  bind scroll to anchor links
     $(document).on("click", "a[href^=#]", function (e) {
