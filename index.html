@@ -1,59 +1,27 @@
-<!-- start coded_template: id:2805399175 path:custom/pages/strap/home.html --><!doctype html><!-- start coded_template: id:2760197189 path:custom/system/strap/header.html --><html lang="en"><head>
+<!doctype html>
+<html lang="en"><head>
     <meta charset="utf-8">
-    <meta name="author" content="Strap">
-    <meta name="description" content="Strap is Wearable Intelligence Software for increasing marketing and advertising effectiveness through more precise targeting and personalization. ">
     <title>Strap - Wearable Integration and Analytics Platform - Strap</title>
     <meta http-equiv="Content-Language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    
     <!-- Typekit -->
-    
-    
-  <script src="code.jquery.com/jquery-1.10.2.js?t=1439239136616"></script>
-  <script src="code.jquery.com/ui/1.11.4/jquery-ui.js?t=1439239136616"></script>
+    <script src="code.jquery.com/jquery-1.10.2.js?t=1439239136616"></script>
+    <script src="code.jquery.com/ui/1.11.4/jquery-ui.js?t=1439239136616"></script>
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.js?t=1439239136616"></script>
-<script type="text/javascript" async="" src="http://d26b395fwzu5fz.cloudfront.net/3.0.7/keen-tracker.min.js"></script>
-    <link href="css/public_common.css" rel="stylesheet">
-    <meta property="og:description" content="Strap is Wearable Intelligence Software for increasing marketing and advertising effectiveness through more precise targeting and personalization. ">
-    <meta property="og:title" content="Strap">
-    <meta name="twitter:description" content="Strap is Wearable Intelligence Software for increasing marketing and advertising effectiveness through more precise targeting and personalization. ">
-
+    <!--<script type="text/javascript" async="" src="http://d26b395fwzu5fz.cloudfront.net/3.0.7/keen-tracker.min.js"></script>
+    <!--<link href="css/public_common.css" rel="stylesheet">-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- CSS -->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="bower_components/materialize/bin/materialize.css" rel="stylesheet">
-    <link href="bower_components/materialize/bin/strap.css" rel="stylesheet">
-    <link rel="shortcut icon" href="//cdn2.hubspot.net/hubfs/514770/img/favicon.png?t=1439239136616">
-    <link rel="apple-touch-icon" href="//cdn2.hubspot.net/hubfs/514770/img/apple-touch-icon.png?t=1439239136616">
-    <link rel="apple-touch-icon" sizes="72x72" href="//cdn2.hubspot.net/hubfs/514770/img/apple-touch-icon-72x72.png?t=1439239136616">
-    <link rel="apple-touch-icon" sizes="114x114" href="//cdn2.hubspot.net/hubfs/514770/img/apple-touch-icon-114x114.png?t=1439239136616">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-    <script>
-    /*$('nav #subHeader a').on('click',function () {
-    elementClick = $(this).attr("href");
-    $.browser.chrome = /chrome/.test(navigator.userAgent.toLowerCase()); 
-    // вычитаем высоту «шапки»
-    destination = $(elementClick).offset().top-145;
- 
-    if($.browser.safari || $.browser.chrome){
-        $('body').animate( { scrollTop: destination }, 1100 );
-    }else{
-        $('html').animate( { scrollTop: destination }, 1100 );
-    }
-    return false;
-    });*/
-    </script>
+    <link href="css/strap.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- HEADER -->
-    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        
-    </div>
+    
     <header id="header" class="header-scroll-up">
         
         <nav id="mainHeader" class="navbar-fixed">
@@ -91,7 +59,7 @@
             <div class="container hide-on-med-and-down">
                 <div class="row">
                     <ul class="tabs desktop-tabs">
-                        <li class="waves-effect waves-light-blue tab"><a href="#home-hero1">Описание</a></li>
+                        <li class="waves-effect waves-light-blue tab"><a href="#home-hero">Описание</a></li>
                         <li class="waves-effect waves-light-blue tab"><a href="#how-it-works-section">Почему EnglishforIT?</a></li>
                         <li class="waves-effect waves-light-blue tab"><a href="#benefits">Курсы</a></li>
                         <li class="waves-effect waves-light-blue tab"><a href="#benefits">Преподаватели</a></li>
@@ -117,11 +85,11 @@
                 <!-- Hero
             ================================================== -->
             <div id="home-hero-trigger">
-                <div id="home-hero1" class="">
-                    <div class="hero-text" style="background-color: #3A424C;max-height: 600px;height: 300px;">
+                <div id="home-hero" class="">
+                    <div class="hero-text" style="max-height: 600px;height: 300px;">
                         <div class="container" style="padding-top:3%;color:white;">
                             
-                            <h1 class="text-center">Вы понимаете C++ и Java?</h1>
+                            <h1 class="text-center ">Вы понимаете C++ и Java?</h1>
                             <h2 class="text-center">А как на счет английского?</h2>
                             <div class="text-center hero-buttons">
                                 <a class="text-center primary inverted large btn waves-effect grey lighten-2" style="color: black;" id="video-link" href="#myModal">Хочу учить<i class="material-icons dp48 hidden">play_arrow</i></a>
@@ -146,17 +114,17 @@
                                     <div class="item-nub"></div>
                                 </span>
 
-                                <li><a href="#how-enable" id="how-enable-tic" class="text-blue waves-effect"><span class="text-blue hide-on-med-and-down"><i class="icon-integration"></i>Интенсивно</span><span class="text-blue hide-on-large-only block full small"><i class="icon-integration block"></i>Интенсивно</span></a></li>
-                                <li><a href="#how-connect" id="how-connect-tic" class="text-gold waves-effect"><span class="text-gold hide-on-med-and-down"><i class="icon-unlock"></i> Удобно</span><span class="text-gold hide-on-large-only block full small"><i class="icon-unlock block"></i> Удобно</span></a></li>
-                                <li><a href="#how-push" id="how-push-tic" class="text-green waves-effect"><span class="text-green hide-on-med-and-down"><i class="icon-stats"></i>Доступно</span><span class="text-green hide-on-large-only block full small"><i class="icon-stats block"></i>Доступно</span></a></li>
-                                <li><a href="#how-metrics" id="how-metrics-tic" class="text-lightred waves-effect"><span class="text-lightred hide-on-med-and-down"><i class="icon-trigger"></i>  Увлекательно</span><span class="text-lightred hide-on-large-only block full small"><i class="icon-trigger block"></i>  Увлекательно</span></a></li>
+                                <li><a href="#how-enable" id="how-enable-tic" class="text-blue waves-effect"><span class="text-blue hide-on-med-and-down">Интенсивно</span><span class="text-blue hide-on-large-only block full small">Интенсивно</span></a></li>
+                                <li><a href="#how-connect" id="how-connect-tic" class="text-gold waves-effect"><span class="text-gold hide-on-med-and-down"> Удобно</span><span class="text-gold hide-on-large-only block full small"> Удобно</span></a></li>
+                                <li><a href="#how-push" id="how-push-tic" class="text-green waves-effect"><span class="text-green hide-on-med-and-down">Доступно</span><span class="text-green hide-on-large-only block full small">Доступно</span></a></li>
+                                <li><a href="#how-metrics" id="how-metrics-tic" class="text-lightred waves-effect"><span class="text-lightred hide-on-med-and-down">Увлекательно</span><span class="text-lightred hide-on-large-only block full small">Увлекательно</span></a></li>
                             </ul>
                         </div>
                         <div id="how-it-works-sections" class="col s12 offset-m3 offset-l3 m9 l9 how-it-works-sections">
 
                                     <div id="how-enable" class="col s12 m12 l12 how-section">
                                         <div class="col s6 offset-s3 m2 l2 text-center">
-                                            <i class="icon-integration block text-blue extra-large-text text-center"></i>
+                                           
                                         </div>
                                         <div class="col s12 m10 l10">
                                             <h3 class="text-blue uppercase">Интенсивно</h3>
@@ -165,7 +133,7 @@
                                     </div>
                                     <div id="how-connect" class="col s12 m12 l12 how-section">
                                         <div class="col s6 offset-s3 m2 l2">
-                                            <i class="icon-unlock block text-gold extra-large-text text-center"></i>
+                                            
                                         </div>
                                         <div class="col s12 m10 l10">
                                             <h3 class="text-gold uppercase">Удобно</h3>
@@ -174,7 +142,7 @@
                                     </div>
                                     <div id="how-push" class="col s12 m12 l12 how-section">
                                         <div class="col s6 offset-s3 m2 l2">
-                                            <i class="icon-stats block text-green extra-large-text text-center"></i>
+                                            
                                         </div>
                                         <div class="col s12 m10 l10">
                                             <h3 class="text-green uppercase">Доступно</h3>
@@ -183,7 +151,7 @@
                                     </div>
                                     <div id="how-metrics" class="col s12 m12 l12 how-section">
                                         <div class="col s6 offset-s3 m2 l2">
-                                            <i class="icon-trigger block text-lightred extra-large-text text-center"></i>
+                                            
                                         </div>
                                         <div class="col s12 m10 l10">
                                             <h3 class="text-lightred uppercase"> Увлекательно</h3>
@@ -200,21 +168,21 @@
     <div class="col s12 m4 l8">
 		<div class="center-align">
 			<div class="col s12 m6 l4">
-				<img class="responsive-img" src="img/hiw1.png"/>
+				 <i class="medium material-icons">create</i>
 				<h4 class="blue-text">Оставьте заявку</h4>
 				<h5>Заполните аппликационную форму и мы свяжемся с Вами в течении 24 часов.</h5>
 			</div>
 		</div>
 		<div class="center-align">
 			<div class="col s12 m6 l4">
-				<img class="responsive-img" src="img/hiw2.png"/>
+				<i class="medium material-icons">list</i>
 				<h4 class="blue-text">Пройдите тест</h4>
 				<h5>Если Вы не знаете свой уровень английского, пройдите наш тест и результат появится у Вас на экране.</h5>
 			</div>
 		</div>
 		<div class="center-align" >
 			<div class="col s12 m6 l4">
-				<img class="responsive-img" src="img/hiw3.png"/>
+				<i class="medium material-icons">description</i>
 				<h4 class="blue-text">Выберите программу</h4>
 				<h5>Расскажите нам о своих пожеланиях касательно курса обучения и мы предложим Вам подходящую программу.</h5>
 			</div>
@@ -227,21 +195,21 @@
     <div class="col s12 m4 l8">
 		<div class="center-align">
 			<div class="col s12 m6 l4">
-				<img class="responsive-img" src="img/hiw4.png"/>
+				<i class="medium material-icons">insert_invitation</i>
 				<h4 class="blue-text">Выберите график</h4>
 				<h5>Вы можете заниматься английским с нашим преподавателем с 8 утра до 10 вечера, а самостоятельно - 24/7. :)</h5>
 			</div>
 		</div>
 		<div class="center-align">
 			<div class="col s12 m6 l4">
-				<img class="responsive-img" src="img/hiw5.png"/>
+				<i class="medium material-icons">school</i>
 				<h4 class="blue-text">Выберите преподавателя</h4>
 				<h5>Наши преподаватели одинаково профессиональны и квалифицированы, узнайте, кто свободен в удобное для Вас время и назначьте первый урок!</h5>
 			</div>
 		</div>
 		<div class="center-align" >
 			<div class="col s12 m6 l4">
-				<img class="responsive-img" src="img/hiw6.png"/>
+				<i class="medium material-icons">question_answer</i>
 				<h4 class="blue-text">Первый урок!</h4>
 				<h5>Ура! Вы все сделали правильно - первый урок назначен!</h5>
 			</div>
@@ -522,5 +490,5 @@
 <script src="js/main.js"></script>
 <script src="js/ScrollToPlugin.min.js"></script>
 
-<script type="text/javascript" src="js/public_common.js"></script>
+<!--<script type="text/javascript" src="js/public_common.js"></script>-->
 </body></html>

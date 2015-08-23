@@ -10,20 +10,6 @@ function updateForm () {
 
     $this.find('input[type=submit], .hs-button').addClass('btn btn-primary waves-effect');
 
-    // if ($this.has("input[type=text]").length) {
-    //     $this.find("label").insertAfter($this.find("input"));
-    // } else if ($this.has("input[type=email]").length) {
-    //     $this.find("label").insertAfter($this.find("input"));
-    // } else if ($this.has("textarea").length) {
-    //     $this.find("label").insertAfter($this.find("textarea"));
-    // } else if ($this.has("select").length) {
-    //     $this.find('select').material_select();
-    //     $this.find("label").insertAfter($this.find(".select-wrapper"));
-    // } else if ($this.has("input[type=checkbox]").length) {
-    //     var $checkbox = $this.find("input[type=checkbox]");
-    //     $checkbox.parent().before($checkbox);
-    //     $checkbox.addClass("filled-in");
-    // }
     if ($this.has("input[type=checkbox]").length) {
         var $checkbox = $this.find("input[type=checkbox]");
         $checkbox.parent().before($checkbox);
@@ -143,37 +129,6 @@ jQuery(document).ready(function($) {
             $('.thumbs-up-right').removeClass("checked");
         }
     });
-
-
-
-    if ($('#home-hero video').length){
-
-    } else {
-        $("#home-hero .background-gif").remove();
-        $("#home-hero").vide({
-            mp4: 'https://d1oyuxnsvvtuwc.cloudfront.net/strap-hero-poster.mp4',
-            webm: 'https://d1oyuxnsvvtuwc.cloudfront.net/strap-hero-poster.webm',
-            ogv: 'https://d1oyuxnsvvtuwc.cloudfront.net/strap-hero-poster.ogv',
-            poster: 'https://d1oyuxnsvvtuwc.cloudfront.net/strap-hero-poster.jpg'
-        }, {
-            resizing:true,
-            position: "100% 0%"
-        });
-    }
-    if ($('#blog-hero video').length){
-
-    } else {
-        $("#blog-hero .background-gif").remove();
-        $("#blog-hero").vide({
-            mp4: 'https://d1oyuxnsvvtuwc.cloudfront.net/strap-hero-poster.mp4',
-            webm: 'https://d1oyuxnsvvtuwc.cloudfront.net/strap-hero-poster.webm',
-            ogv: 'https://d1oyuxnsvvtuwc.cloudfront.net/strap-hero-poster.ogv',
-            poster: 'https://d1oyuxnsvvtuwc.cloudfront.net/strap-hero-poster.jpg'
-        }, {
-            resizing:true,
-            position: "100% 0%"
-        });
-    }
     
 
     $('#video-link, #video-tab-link').leanModal({
@@ -186,14 +141,6 @@ jQuery(document).ready(function($) {
         } // Callback for Modal close
     });
 
-
-    $("#video-link, #video-tab-link").click(function() {
-        var src = '//www.youtube.com/embed/UQ5ViLekGU8?autoplay=1';
-
-        $('#myModal iframe').attr('src', src);
-
-        analytics.track("Home Video Played");
-    });
 
     $("#myModal").click(function() {
         $('#myModal iframe').removeAttr('src');
