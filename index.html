@@ -7,15 +7,16 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <!-- Typekit -->
-    <script src="code.jquery.com/jquery-1.10.2.js?t=1439239136616"></script>
-    <script src="code.jquery.com/ui/1.11.4/jquery-ui.js?t=1439239136616"></script>
-    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js?t=1439239136616"></script>
-    <!--<script type="text/javascript" async="" src="http://d26b395fwzu5fz.cloudfront.net/3.0.7/keen-tracker.min.js"></script>
-    <!--<link href="css/public_common.css" rel="stylesheet">-->
+    <script src="code.jquery.com/jquery-1.10.2.js?"></script>
+    <script src="code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/scrollMagic.js"></script>
+    <script src="js/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="bower_components/materialize/bin/materialize.css" rel="stylesheet">
+    <link href="css/materialize.css" rel="stylesheet">
     <link href="css/strap.css" rel="stylesheet">
 </head>
 
@@ -23,7 +24,6 @@
     <!-- HEADER -->
     
     <header id="header" class="header-scroll-up">
-        
         <nav id="mainHeader" class="navbar-fixed">
             <div class="navbar-header hide-on-med-and-down">
                 <a class="navbar-brand" href="/">
@@ -32,15 +32,15 @@
             </div>
             <div class="navbar-header mobile-navlogo hide-on-large-only fade animated-300">
                 <a class="navbar-brand navbar-brand-logo" href="/">
-                    <img class="img-responsive center" src="//cdn2.hubspot.net/hubfs/514770/img/strap-logo2.png?t=1439239136616" alt="Strap">
+                    <img class="img-responsive center" src="img/strap-logo2.png" alt="Strap">
                 </a>
                 <a class="navbar-brand navbar-brand-icon" href="/">
-                    <img class="img-responsive center" src="//cdn2.hubspot.net/hubfs/514770/img/strap-icon2.png?t=1439239136616" alt="Strap">
+                    <img class="img-responsive center" src="img/strap-icon2.png" alt="Strap">
                 </a>
             </div>
             <ul class="right hide-on-med-and-down">
-                <li class="header-resources-link"><a href="/resources">Resources</a></li>
-                <a href="#!" data-activates="mainHeader-dropdown" class="dropdown-button waves-effect btn-icon btn-flat"><i class="icon-menu"></i></a>
+                <li class="header-resources-link"><a href="/resources">IT компаниям</a></li>
+                <a href="#!" data-activates="mainHeader-dropdown" class="dropdown-button waves-effect btn-icon btn-flat"><i class="material-icons">view_headline</i></a>
                 <ul id="mainHeader-dropdown" class="dropdown-content">
                     <li><a href="/resources">Resources</a></li>
                     <li><a href="/company">About</a></li>
@@ -52,7 +52,13 @@
                 <a self-center="" class="btn btn-primary btn-small text-center" href="#contact">Contact us</a>
             </div>
             <ul class="mobile-navbtn hide-on-large-only text-right fade animated-300">
-                <a href="#" data-activates="mainHeader-mobile-nav" class="button-collapse waves-effect btn-icon btn-flat"><i class="icon-menu"></i></a>
+                <a href="#" data-activates="mainHeader-mobile-nav" class="button-collapse waves-effect btn-icon btn-flat"><i class="material-icons">view_headline</i></a>
+                <ul id="mainHeader-mobile-nav" class="side-nav">
+                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/company">About</a></li>
+                    <li><a href="https://docs.straphq.com">Documentation</a></li>
+                    <li><a href="http://www.angel.co/strap/jobs">Job Openings</a></li>
+                </ul>
             </ul>
         </nav>
         <nav id="subHeader">
@@ -61,18 +67,17 @@
                     <ul class="tabs desktop-tabs">
                         <li class="waves-effect waves-light-blue tab"><a href="#home-hero">Описание</a></li>
                         <li class="waves-effect waves-light-blue tab"><a href="#how-it-works-section">Почему EnglishforIT?</a></li>
-                        <li class="waves-effect waves-light-blue tab"><a href="#benefits">Курсы</a></li>
-                        <li class="waves-effect waves-light-blue tab"><a href="#benefits">Преподаватели</a></li>
+                        <li class="waves-effect waves-light-blue tab"><a href="#courses">Курсы</a></li>
+                        <li class="waves-effect waves-light-blue tab"><a href="#teachers">Преподаватели</a></li>
                     </ul>
-                    
-
                 </div>
             </div>
             <div class="full hide-on-large-only">
                 <ul class="tabs">
-                    <li class="waves-effect waves-light-blue tab"><a href="#home-hero1">Описание</a></li>
+                    <li class="waves-effect waves-light-blue tab"><a href="#home-hero">Описание</a></li>
                     <li class="waves-effect waves-light-blue tab"><a href="#how-it-works-section">Почему EnglishforIT?</a></li>
-                    <li class="waves-effect waves-light-blue tab"><a href="#benefits">Курсы</a></li>
+                    <li class="waves-effect waves-light-blue tab"><a href="#courses">Курсы</a></li>
+                    <li class="waves-effect waves-light-blue tab"><a href="#teachers">Преподаватели</a></li>
                 </ul>
             </div>
         </nav>
@@ -81,14 +86,13 @@
 
     <div class="home main-content full">
         <div class="content">
-            <a onclick="true" href="#how-it-works-trigger" class="btn-floating btn-large waves-effect waves-circle waves-lightblue down-button"><i class="icon-chevron-down"></i></a>
+            <a onclick="true" href="#contact" class="btn-floating btn-large waves-effect waves-circle waves-lightblue down-button"><i class="material-icons">keyboard_arrow_down</i></a>
                 <!-- Hero
             ================================================== -->
             <div id="home-hero-trigger">
-                <div id="home-hero" class="">
+                <div id="home-hero">
                     <div class="hero-text" style="max-height: 600px;height: 300px;">
                         <div class="container" style="padding-top:3%;color:white;">
-                            
                             <h1 class="text-center ">Вы понимаете C++ и Java?</h1>
                             <h2 class="text-center">А как на счет английского?</h2>
                             <div class="text-center hero-buttons">
@@ -103,7 +107,6 @@
             <!-- Wrap the rest of the page in another container to center all the content. -->
             <div class="sections">
                 <div id="how-it-works-trigger">
-
                     <div id="how-it-works" class="how-it-works row">
                         <div id="how-it-works-section" class="shadowed " large="">
                             <h1 flex="" class="text-center">Мы предлагаем Вам учить английский</h1>
@@ -299,7 +302,7 @@
 				</section>
 				<!--END COURSES -->
 				<!-- START TEACHER-->
-				<section id="teacher" class="">
+				<section id="teachers" class="">
 					<div><h4 class="center-align">Преподаватели</h4></div>
 					<div class="row">
 					  <div class="col s12 m6 l2">&nbsp</div>
@@ -336,7 +339,7 @@
                     <h2 class="text-center margin-bottom"><span id="hs_cos_wrapper_Form-Title" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="text">Contact</span></h2>
                     <div class="card z-depth-3 center">
 <!-- -->
- <div class="row">
+ <div id="contacts_form" class="row">
     <form class="col s12">
       <div class="row">
         <div class="input-field col s6">
@@ -481,14 +484,4 @@
             </div>
         </div>
 </div></footer>
-<script src="bower_components/materialize/bin/materialize.js?t=1439239136616"></script>
-<script src="js/scrollMagic.js?t=1439239136616"></script>
-<script src="js/animation.gsap.min.js"></script>
-<script src="js/bootstrap-button.js"></script>
-<script src="js/jquery.vide.js"></script>
-
-<script src="js/main.js"></script>
-<script src="js/ScrollToPlugin.min.js"></script>
-
-<!--<script type="text/javascript" src="js/public_common.js"></script>-->
 </body></html>

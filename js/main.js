@@ -296,12 +296,12 @@ jQuery(document).ready(function($) {
                     .addTo(controllerScrollTabs)
                     .on("enter", function (e) {
                         $('#subHeader ul.tabs').tabs('activate_tab', 'benefits');
-                        $('a.down-button').attr("href", "#contact-trigger");
+                        $('a.down-button').attr("href", "#contacts_form");
                     });
-    new ScrollMagic.Scene({triggerElement: "#contact-trigger", duration: $("#contact-trigger").height()})
+    new ScrollMagic.Scene({triggerElement: "#contact", duration: $("#contact").height()})
                     .addTo(controllerScrollTabs)
                     .on("enter", function (e) {
-                        $('a.down-button').attr("href", "#contact-trigger");
+                        $('a.down-button').attr("href", "#contact");
                     });
 
 });

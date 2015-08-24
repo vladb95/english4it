@@ -5,32 +5,32 @@
 }
 
 .text-thin{
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:100
 }
 
 .text-light{
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:300
 }
 
 .text-regular{
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:400
 }
 
 .text-medium{
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:500
 }
 
 .text-bold{
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:700
 }
 
 .mission-script{
-	font-family:"mission_scriptregular"
+	/*font-family:"mission_scriptregular"*/
 }
 
 .text-code{
@@ -1437,7 +1437,7 @@
 }
 
 @font-face{
-	font-family:'mission_scriptregular';
+	/*font-family:'mission_scriptregular';*/
 	src:url("https://cdn2.hubspot.net/hubfs/514770/fonts/mission-script-webfont.eot");
 	src:url("https://cdn2.hubspot.net/hubfs/514770/fonts/mission-script-webfont.eot?#iefix") format("embedded-opentype"),url("https://cdn2.hubspot.net/hubfs/514770/fonts/mission-script-webfont.woff2") format("woff2"),url("https://cdn2.hubspot.net/hubfs/514770/fonts/mission-script-webfont.woff") format("woff"),url("https://cdn2.hubspot.net/hubfs/514770/fonts/mission-script-webfont.ttf") format("truetype"),url("https://cdn2.hubspot.net/hubfs/514770/fonts/mission-script-webfont.svg#mission_scriptregular") format("svg");
 	font-weight:normal;
@@ -1445,7 +1445,7 @@
 }
 
 @font-face{
-	font-family:'strap';
+	/*font-family:'strap';*/
 	src:url("https://cdn2.hubspot.net/hubfs/514770/fonts/strap.eot");
 	src:url("https://cdn2.hubspot.net/hubfs/514770/fonts/strap.eot?#iefix") format("embedded-opentype"),url("https://cdn2.hubspot.net/hubfs/514770/fonts/strap.svg#strap") format("svg"),url("https://cdn2.hubspot.net/hubfs/514770/fonts/strap.woff") format("woff"),url("https://cdn2.hubspot.net/hubfs/514770/fonts/strap.ttf") format("truetype");
 	font-weight:normal;
@@ -1453,7 +1453,7 @@
 }
 
 [class^="icon-"],[class*=" icon-"]{
-	font-family:'strap';
+	/*font-family:'strap';*/
 	speak:none;
 	font-style:normal;
 	font-weight:normal;
@@ -3169,7 +3169,7 @@
 }
 
 .modal .modal-dialog h2{
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:300
 }
 
@@ -3495,7 +3495,7 @@
 }
 
 .ui-widget{
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-size:0.875em
 }
 
@@ -3655,7 +3655,7 @@
 }
 
 .tabs{
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:400;
 	background:none
 }
@@ -3688,7 +3688,7 @@
 
 .tooltip{
 	font-size:1em;
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	white-space:nowrap;
 	opacity:1;
 	filter:alpha(opacity=100)
@@ -3773,7 +3773,7 @@
 .cta_button{
 	font-size:1em;
 	letter-spacing:1px;
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	line-height:1;
 	padding:0.7em 1em;
 	height:auto;
@@ -3795,7 +3795,7 @@ paper-button,.btn,.btn-flat,.joyride-tip-guide .joyride-next-tip,.hs-button{
 	-webkit-box-shadow:none;
 	box-shadow:none;
 	outline:0;
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	line-height:1;
 	padding:0.7em 1em;
 	height:auto;
@@ -4432,8 +4432,8 @@ p,pre{
 }
 
 code,kbd,pre,samp{
-	font-family:monospace, serif;
-	_font-family:'courier new', monospace;
+	/*font-family:monospace, serif;
+	_font-family:'courier new', monospace;*/
 	font-size:1em
 }
 
@@ -4602,7 +4602,7 @@ dd{
 }
 
 body{
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-size:1.125em;
 	font-weight:300;
 	position:absolute;
@@ -4612,7 +4612,7 @@ body{
 }
 
 input{
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-size:1em;
 	font-weight:300
 }
@@ -4674,7 +4674,7 @@ h1 small,h1 .small,.h1 small,.h1 .small,h2 small,h2 .small,.h2 small,.h2 .small,
 }
 
 i.h1,i.h2,i.h3,i.h4,i.h5,i.h6{
-	font-family:'strap'
+	/*font-family:"Roboto Condensed"*/
 }
 
 b,strong{
@@ -5581,7 +5581,7 @@ pre{
 
 #subHeader .tabs{
 	height:64px;
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:400;
 	background:none;
 	display:inline-block
@@ -5639,7 +5639,7 @@ pre{
 }
 
 #subHeader .tab-btn{
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:400;
 	width:20%;
 	float:right;
@@ -5850,7 +5850,7 @@ pre{
 
 #home-hero .hero-text h1,#splash-hero .hero-text h1,#blog-hero .hero-text h1{
 	color:#fff;
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:600;
 	text-shadow:0 0.025em 0.15em rgba(0,0,0,0.2),0 0.05em 0em rgba(0,0,0,0.2);
 	font-size:1.5em;
@@ -5871,7 +5871,7 @@ pre{
 	font-size:1em;
 	margin:0 0 1em;
 	color:#fff;
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:500;
 	text-shadow:0 0.125em 0.15em rgba(0,0,0,0.2),0 0.0875em 0em rgba(0,0,0,0.2)
 }
@@ -5937,7 +5937,7 @@ pre{
 #home-hero .hero-buttons a,#splash-hero .hero-buttons a,#blog-hero .hero-buttons a{
 	background:rgba(255,255,255,0.75);
 	color:rgba(59,66,80,0.8);
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:400;
 	border:0;
 	font-size:1.125em;
@@ -6921,7 +6921,7 @@ section{
 }
 
 .sections #updates span.register-checkbox{
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:400;
 	text-transform:uppercase;
 	color:#3b4250;
@@ -7037,7 +7037,7 @@ section{
 	padding:0;
 	margin:0.5em 1em 0.5em 0;
 	text-transform:uppercase;
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:400
 }
 
@@ -7763,7 +7763,7 @@ section{
 	width:100%;
 	list-style:none;
 	font-size:16px;
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:400;
 	text-transform:uppercase;
 	display:table
@@ -8370,7 +8370,7 @@ false{
 
 #blog-nav li a{
 	font-size:14px;
-	font-family:"brandon-grotesque";
+	/*font-family:"Roboto Condensed";*/
 	font-weight:400;
 	color:rgba(59,66,80,0.8);
 	text-transform:uppercase
