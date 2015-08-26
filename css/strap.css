@@ -5633,7 +5633,7 @@ pre{
 
 @media (min-width: 768px){
 	#subHeader .tabs.desktop-tabs{
-		width:80% !important
+		/*width:80% !important*/
 	}
 
 }
