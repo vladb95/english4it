@@ -5626,7 +5626,8 @@ pre{
 
 @media (min-width: 481px){
 	#subHeader .tabs li.tab a{
-		font-size:18px
+		font-size:13pt;
+		font-family:'Roboto-Regular',sans-serif;
 	}
 
 }
@@ -5667,7 +5668,7 @@ pre{
 
 @media (min-width: 481px){
 	#subHeader .tab-btn a{
-		font-size:18px
+		font-size:13pt;
 	}
 
 }
@@ -5958,7 +5959,8 @@ pre{
 
 @media (min-width: 768px){
 	#home-hero .hero-buttons a,#splash-hero .hero-buttons a,#blog-hero .hero-buttons a{
-		font-size:1.25em
+		font-size:16pt;
+		color:#434343;
 	}
 
 }
@@ -6021,7 +6023,9 @@ pre{
 	}
 
 	#home-hero .hero-text h2,#splash-hero .hero-text h2,#blog-hero .hero-text h2{
-		font-size:2em
+				font-size:30pt;
+		font-weight:bold;
+		color: #f3f3f3;
 	}
 
 	#home-hero .hero-text .form-field-button-combo,#splash-hero .hero-text .form-field-button-combo,#blog-hero .hero-text .form-field-button-combo{
@@ -6036,7 +6040,9 @@ pre{
 	}
 
 	#home-hero .hero-text h1,#splash-hero .hero-text h1,#blog-hero .hero-text h1{
-		font-size:3em
+		font-size:30pt;
+		font-weight:bold;
+		color: #f3f3f3;
 	}
 
 	#home-hero .hero-text .form-field-button-combo,#splash-hero .hero-text .form-field-button-combo,#blog-hero .hero-text .form-field-button-combo{
